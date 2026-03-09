@@ -1,0 +1,12 @@
+# Dépendances
+node_modules/
+
+# Build Vite
+dist/
+
+# Build Electron
+release/
+
+# OS
+.DS_Store
+Thumbs.db
