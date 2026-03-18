@@ -52,6 +52,44 @@ For any modification to the README, follow the existing structure:
 
 ---
 
+
+## Documentation Standards: CHANGELOGS.md
+
+For any modification to the CHANGELOGS.md file, follow these guidelines:
+
+1. **Chronological Order**: List the latest changes at the top of the file.
+2. **Versioning**: Use semantic versioning (e.g., [1.2.0]) and include the release date (YYYY-MM-DD).
+3. **Sections per Release**: For each version, use clear sections such as "Added" (new features), "Changed" (updates or improvements), "Fixed" (bug fixes), "Removed" (features or code removed), and any other relevant types (e.g., "Deprecated", "Security").
+4. **Conciseness**: Write short, clear, and actionable change descriptions.
+5. **Formatting**: Use Markdown headers and lists for readability.
+6. **Consistency**: Follow the format and tone of previous entries.
+7. **Attribution**: Major changes should reference related issues or pull requests if applicable.
+8. **No Breaking Changes Without Notice**: Clearly highlight any breaking changes.
+9. **Review**: Discuss major or controversial changes with the team before merging.
+
+
+**Example:**
+
+```
+## [1.2.0] - 2026-04-01
+### Added
+- New feature: user authentication
+### Changed
+- Updated dependencies
+### Fixed
+- Resolved crash on startup
+### Removed
+- Deprecated legacy login system
+### Security
+- Patched XSS vulnerability in profile page
+```
+
+---
+
+
+
+---
+
 ## General Best Practices
 
 - Contributions must respect the structure and consistency of existing documents.
