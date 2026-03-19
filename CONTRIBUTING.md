@@ -14,6 +14,77 @@ Use Markdown formatting, lists, and tables for clarity. All contributors should 
 
 ---
 
+## Team Workflow Standards: Github norms
+
+### GitHub Project & Issue Norms
+
+- **Descriptive Titles and Labels:**
+	- Issues should have concise, descriptive titles.
+	- Use labels (e.g., `bug`, `enhancement`, `question`) to categorize and prioritize issues.
+- **Reproducible Steps:**
+	- Bug reports must include clear steps to reproduce the issue, expected vs. actual behavior, and environment details.
+- **Respectful Communication:**
+	- All interactions should be respectful and constructive.
+	- Follow the project’s Code of Conduct at all times.
+- **Linked Pull Requests:**
+	- Reference issues in pull requests using keywords like `Fixes #123` to automatically close issues when merged.
+- **Milestones and Projects:**
+	- Use milestones to group issues for releases.
+	- Use GitHub Projects (boards) for planning and tracking progress.
+- **Contribution Guidelines:**
+	- All contributors should follow these norms when creating or managing issues and pull requests.
+
+### Commit norms
+
+Follow these commit message conventions to ensure clarity and consistency:
+
+**Format:**
+
+```
+<type>(<scope>): <short summary>
+
+[optional body]
+```
+
+- **type**: The kind of change. Common types:
+	- `Feat`: New feature
+	- `Fix`: Bug fix
+	- `Chore`: Maintenance, tooling, or non-user-facing changes
+	- `Docs`: Documentation only changes
+	- `Refactor`: Code change that neither fixes a bug nor adds a feature
+	- `Dtyle`: Formatting, missing semi colons, etc. (no code change)
+	- `Test`: Adding or updating tests
+	- `Perf`: Performance improvement
+	- `Ci`: Changes to CI/CD configuration
+- **scope**: (Optional) The part of the codebase or docs affected (e.g., `ARCHITECTURE.md`, `docs/`, `api`, `ui`).
+- **short summary**: Brief, imperative description of the change (max 72 characters).
+- **body**: (Optional) More detailed explanation, motivation, or context.
+
+**Examples:**
+
+- `Feat(ARCHITECTURE.md, docs/): Added documentation for overall architecture and docs/ folder`
+- `Fix(gameUtils): Corrected score calculation bug`
+- `Chore: Updated dependencies and cleaned up scripts`
+- `Refactor(components): Simplified ProfileCard logic`
+- `Docs(README): Improved installation instructions`
+- `Test(skills): Added tests for SkillCard component`
+- `Style: Fixed ESLint warnings in main.jsx`
+- `Ci: Update GitHub Actions workflow for Node 20`
+
+### Pull request norms
+
+- Clearly describe what the pull request changes and why.
+- Reference related issues using keywords like `CLOSES #123` so they are automatically closed when merged.
+
+Follow these commit message conventions to ensure clarity and consistency:
+
+
+**Tips:**
+- Use the imperative mood (e.g., "Add", not "Added" or "Adds").
+- Reference issues or PRs when relevant (e.g., `Fixes #42`).
+- Keep messages concise and meaningful.
+
+
 ## Documentation Standards: ARCHITECTURE.md
 
 For any contribution to the architecture documentation, follow this structure:
