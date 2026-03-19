@@ -16,9 +16,17 @@ This document tracks known technical debt in the project. Use it to record, prio
 
 | Area         | Description                                      | Impact   | Suggested Fix                | Issue # |
 |--------------|--------------------------------------------------|----------|------------------------------|---------|
-| Themes       | Hardcoded theme values in theme logic            | Medium   | Refactor to use config files |         |
-| Bug Reports  | No screenshot upload in bug report modal         | High     | Add file upload support      |         |
-| Performance  | Main menu sluggish on startup                    | High     | Optimize asset loading       |         |
-| Testing      | No tests for translation feature                 | Medium   | Add unit tests               |         |
-| Architecture | Some modules have unclear responsibilities       | Medium   | Refactor and document        |         |
-| Docs         | README lacks troubleshooting section             | Low      | Add troubleshooting guide    |         |
+| Themes       | Hardcoded theme values in theme logic            | Medium   | Refactor to use config files | #17     |
+| Bug Reports  | No screenshot upload in bug report modal         | High     | Add file upload support      | #15     |
+| Performance  | Main menu sluggish on startup                    | High     | Optimize asset loading       | #14     |
+| Testing      | No tests for translation feature                 | Medium   | Add unit tests               | #16     |
+| Architecture | Some modules have unclear responsibilities       | Medium   | Refactor and document        | #13     |
+| Docs         | README lacks troubleshooting section             | Low      | Add troubleshooting guide    | #2      |
+| Extensibility| Adding new games is not streamlined; requires manual integration in multiple places | High | Refactor game registration to use a plugin/config system and document the process | #7, #18 |
+
+## How to Update
+
+- Add new debt items as you find them.
+- Remove or update items as they are addressed.
+- Reference related issues or pull requests when possible.
+- Review this file regularly as part of project maintenance.
