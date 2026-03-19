@@ -2,15 +2,48 @@
 
 For any modification to this CONTRIBUTING.md file, follow these guidelines:
 
-1. Keep instructions clear, concise, and actionable.
-2. Use section headers for each type of contribution norm (e.g., architecture, README, code style).
-3. Update examples and best practices as the project evolves.
-4. Ensure all documentation is consistent in tone and format with the rest of the file.
-5. Discuss major changes with the team via issue or pull request before merging.
+When editing this CONTRIBUTING.md file, please:
 
-Use Markdown formatting, lists, and tables for clarity. All contributors should be able to easily understand and apply the guidelines.
+1. Write instructions that are direct, specific, and easy to follow. Avoid vague language.
+2. Always add or update section headers for each new or changed contribution rule (e.g., "Commit norms", "Pull request norms").
+3. Provide concrete examples for new rules or best practices, and update existing examples if the process changes.
+4. Match the tone, formatting, and structure of the rest of the file. Use the same Markdown style, indentation, and list formatting.
+5. For any major change (such as adding a new section or changing existing rules), open an issue or pull request and get team feedback before merging.
+6. Use Markdown features like lists, tables, and code blocks to make guidelines easy to read and apply.
+7. Ensure every contributor can understand and use the guidelines without needing extra explanation.
 
 # CONTRIBUTING.md
+
+---
+
+## Markdown Syntax Rules
+
+Follow these Markdown syntax rules to keep documentation clear and consistent:
+
+- Use `#` for main titles, `##` for section headers, and `###` for sub-sections.
+	- Example:
+		- `# Main Title`
+		- `## Section Header`
+		- `### Sub-section`
+- Use `-` or `*` for bullet lists.
+	- Example:
+		- `- First item`
+		- `- Second item`
+- Use numbers for ordered lists.
+	- Example:
+		- `1. First step`
+		- `2. Second step`
+- Use triple backticks (```) for code blocks and single backticks for inline code.
+	- Example:
+		- Inline: ``Use `npm install` to add packages.``
+		- Block:
+			```
+			npm install
+			```
+- Use `**bold**` or `*italic*` for emphasis.
+- Use `[link text](url)` for links.
+
+Keep formatting consistent throughout the documentation. Refer to this section if unsure about Markdown usage.
 
 ---
 
