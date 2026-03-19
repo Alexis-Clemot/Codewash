@@ -14,33 +14,67 @@ CodeWash propose plusieurs mini-jeux, chacun axé sur un type d'apprentissage di
 
 ## Les mini-jeux disponibles
 
-### 🔨 La table de craft
-Un jeu de correspondance où tu dois assembler les bons éléments ensemble. Plus tu avances, plus les combinaisons deviennent complexes.
+## 📖 Enchanting Table — Lecture
 
-**Comment jouer :**
+**Compétence entraînée :** Lecture  
+**Adversaire final :** Ender Dragon
 
-1. Observe les éléments disponibles à gauche
-2. Fais-les glisser dans la grille centrale
-3. Si la combinaison est correcte, tu marques des points
+Prononce les mots affichés pour lancer des enchantements et vaincre tes ennemis. Les mots deviennent plus longs et plus complexes à mesure que tu progresses.
 
 ---
 
-### 🧩 [Nom du mini-jeu 2]
-*À compléter selon les mini-jeux effectivement présents dans le projet.*
+## 🔴 Redstone — Mathématiques
+
+**Compétence entraînée :** Calcul mental  
+**Adversaire final :** The Wither
+
+Résous des opérations mathématiques pour alimenter tes circuits Redstone et piéger les monstres hostiles. La difficulté évolue ainsi :
+
+| Niveau | Ce que tu calcules |
+|---|---|
+| 1 | Addition simple (0–9) |
+| 2 | Addition (0–20) |
+| 3 | Addition et soustraction (0–20) |
+| 4 | Addition, soustraction, multiplication |
+| 5 | Les 4 opérations |
+| 6 | Ordre des opérations (PEMDAS) |
+| 7 | Complexité cauchemar 😱 |
 
 ---
 
-### ❓ Trivia
-Un jeu de questions-réponses sur différents thèmes. Tu as un temps limité pour répondre à chaque question.
+## ✏️ Crafting Table — Orthographe
 
-**Comment jouer :**
+**Compétence entraînée :** Orthographe  
+**Adversaire final :** The Warden
 
-1. Une question s'affiche à l'écran
-2. Quatre réponses possibles sont proposées
-3. Clique sur la bonne réponse avant que le temps soit écoulé
+Épelle correctement les recettes pour forger des armes et armures légendaires. Les mots deviennent plus longs au fil des niveaux.
 
-!!! info "Source des questions"
-    Les questions proviennent d'une base de données externe et se renouvellent régulièrement.
+---
+
+## 📦 Chest Management — Organisation
+
+**Compétence entraînée :** Organisation / Nettoyage  
+**Adversaire final :** Ender Chest
+
+Trie ton inventaire et organise ton butin pour préparer tes prochaines aventures. Des coffres spéciaux (Ender Chest, Shulker Box) apparaissent aux niveaux importants.
+
+---
+
+## 🥚 Match n' Hatch — Mémoire
+
+**Compétence entraînée :** Mémoire  
+**Adversaire final :** Axolotl Mascot
+
+Retrouve les paires cachées pour faire éclore des créatures rares et agrandir ta ferme. Les axolotls collectés ici s'ajoutent à ta collection permanente !
+
+---
+
+## 🧩 Logic Building — Patterns
+
+**Compétence entraînée :** Reconnaissance de séquences  
+**Adversaire final :** Iron Golem
+
+Déchiffre les séquences logiques pour débloquer des mécanismes anciens et des trésors cachés.
 
 ---
 
