@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.1.3] - 2026-03-18
 ### Added
+- Created docs/debt.md to identify, track, and prioritize technical debt across the project.
 - Created CHANGELOGS.md to track all notable changes.
 - Created CONTRIBUTING.md to define contribution and documentation standards.
 - Created docs/ and ARCHITECTURE.md to document the system architecture and technical documentation.

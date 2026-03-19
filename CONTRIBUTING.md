@@ -16,6 +16,35 @@ When editing this CONTRIBUTING.md file, please:
 
 ---
 
+## Technical Debt Norms
+
+Follow these rules to document and manage technical debt in this project:
+
+- **Be specific:** Clearly describe each debt item, including what it is, where it is found, and why it is a problem.
+- **Categorize:** Assign each debt item to a category (e.g., code, architecture, documentation, testing, performance, dependencies).
+- **Prioritize:** Indicate the impact and urgency of each debt item (High/Medium/Low).
+- **Track with issues:** For significant debt, create a GitHub issue and link it in the debt documentation.
+- **Describe impact:** Briefly explain how the debt affects maintainability, features, or user experience.
+- **Suggest remediation:** Propose a solution or next step for each debt item if possible.
+- **Keep up to date:** Update the debt list as you address or discover new debt. Remove items when resolved.
+
+**Example Debt Table:**
+
+| Area         | Description                                      | Impact   | Suggested Fix                | Issue # |
+|--------------|--------------------------------------------------|----------|------------------------------|---------|
+| Themes       | Hardcoded theme values in theme logic            | Medium   | Refactor to use config files | #12     |
+| Bug Reports  | No screenshot upload in bug report modal         | High     | Add file upload support      | #15     |
+| Performance  | Main menu sluggish on startup                    | High     | Optimize asset loading       | #18     |
+| Testing      | No tests for translation feature                 | Medium   | Add unit tests               | #22     |
+
+**How to update debt:**
+- Add new debt items as you find them.
+- Remove or update items as they are addressed.
+- Reference related issues or pull requests when possible.
+- Review the debt list regularly as part of project maintenance.
+
+---
+
 ## Markdown Syntax Rules
 
 Follow these Markdown syntax rules to keep documentation clear and consistent:
